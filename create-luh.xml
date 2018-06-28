@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<LSAP partFormat="ARINC_665-8004" partNumber="NCT-Z-08CA-804C">
+  <ARINC_665-8004_LSAP downloadFlag="Upload">
+    <LoadTypeInformation description="46 NFS SERVER OS" id="32"/>
+
+    <THWIDList>
+      <THWID value="TDYNFS2" />
+    </THWIDList>
+
+    <DataFileList>
+
+      <LSAPFile filename="70-dna-layer.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/70-dna-layer.cpio.gz"/>
+      <LSAPFile filename="kernel"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/kernel"/>
+      <LSAPFile filename="initramfs"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/initramfs"/>
+      <LSAPFile filename="10-rootfs-layer.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/10-rootfs-layer.cpio.gz"/>
+      <LSAPFile filename="nascent-ops-os-initrd-overlay.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/nascent-ops-os-initrd-overlay.cpio.gz"/>
+      <LSAPFile filename="20-nascent-yocto-layer.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/20-nascent-yocto-layer.cpio.gz"/>
+      <LSAPFile filename="30-nascent-ops-os-layer.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/30-nascent-ops-os-layer.cpio.gz"/>
+      <LSAPFile filename="25-hardware-nfs-layer.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/25-hardware-nfs-layer.cpio.gz"/>
+      <LSAPFile filename="hardware-nfs-initrd-overlay.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/hardware-nfs-initrd-overlay.cpio.gz"/>
+      <LSAPFile filename="55-ons-tdf-layer.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/55-ons-tdf-layer.cpio.gz"/>
+      <LSAPFile filename="50-ons-ops-os-layer.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/50-ons-ops-os-layer.cpio.gz"/>  
+      <LSAPFile filename="60-vobs-os-layer.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/60-vobs-os-layer.cpio.gz"/>  
+      <LSAPFile filename="ons-ops-os-initrd-overlay.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/ons-ops-os-initrd-overlay.cpio.gz"/>
+      <LSAPFile filename="vobs-os-initrd-overlay.cpio.gz"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/vobs-os-initrd-overlay.cpio.gz"/>               
+    </DataFileList>
+
+    <SupportFileList>
+      <LSAPFile filename="script-common"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/script-common"/>
+      <LSAPFile filename="find-ops-disk"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/find-ops-disk"/>
+      <LSAPFile filename="kexec-options"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/kexec-options"/>
+      <LSAPFile filename="install.sh"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/install.sh"/>
+      <LSAPFile filename="appid"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/appid"/>
+      <LSAPFile filename="min-appids"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/min-appids"/>
+      <LSAPFile filename="idl-parts.sh"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/idl-parts.sh"/>              
+      <LSAPFile filename="optional-appids"
+                filePartNumber="NCT-Z-08CA-804C"
+                checkValueType="SHA-1"
+                href="NCT-Z-08CA-804C/nfs/NCT-Z-08CA-804C/optional-appids"/>                 
+    </SupportFileList>
+
+    <LoadCheckValue checkValueType="SHA-1"/>
+  </ARINC_665-8004_LSAP>
+</LSAP>

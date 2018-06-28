@@ -1,0 +1,32 @@
+version: "3.1"
+services:
+  hao-jenkins:
+    image: 'registry.base2d.com/operations/test:1.1.2'
+    hostname: "test-jenkins"
+    environment:
+      JAVA_OPTS: "-Djava.awt.headless=true"
+    networks:
+      - hao-test
+    deploy:
+      labels:
+        com.docker.ucp.access.label: /core-ops
+      restart_policy:
+        condition: any
+    secrets:
+      - source: Haostest
+        target: Haostest
+        mode: 0444
+
+networks:
+  ucp-hrm:
+    external: true
+  hao-test:
+
+volumes:
+  letsencrypt_certstore:
+    external: true
+
+secrets:
+  Haostest:
+    external: true
+
