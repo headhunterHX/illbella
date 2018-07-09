@@ -9,9 +9,10 @@
 # puts "What do you want to change it to?"
 # goal = gets.chomp
 cur_dir = Dir.pwd
+value = File.read("/home/jenkins/.curr_tail")
 filename = "#{cur_dir}/create-luh.xml"
-target = "NCT-Z-08CA-802X"
-goal = "NCT-Z-08CA-804C"
+target = "NCT-Z-08CA-9999"
+goal = "NCT-Z-08CA-#{value}"
 
 file_names = ["#{filename}"]
 #check to make sure the user input is actually within the file, then proceed with the replacing process.
