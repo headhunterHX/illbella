@@ -49,14 +49,14 @@ lspb_jar=(${cur_dir}/lspb.jar)
 # echo $luh_file
 # echo $lup_file
 
-### xml should only include LUP, java-jar needs to be run everytime LUP got repackaged, LUH name needs to be fixed as well ******
-# ###  LUP creation
-  cd ${cur_dir}/NCT-Z-08CA-* && rm *.LUP && rm *.LUH && tar -cvf NCTZ08CA${value}000.LUP nfs && mv *.LUP ${cur_dir}
-# # # ### LUH creation
-  cd ${cur_dir} && java -jar ${lspb_jar} -c . create-luh.xml NCT-Z-08CA-${value}.LUH
-  # cd ${cur_dir} && rm -rf NCT-Z-* && mkdir ${zipvalue}
-  mkdir ${zipvalue} && cd ${zipvalue} && mv ${cur_dir}/*.LUH . && mv ${cur_dir}/*.LUP .
-  cd ${cur_dir} && zip -r ${zipvalue}.zip ${zipvalue}
+cd ${cur_dir}/NCT-Z-08CA-* && cp -rf nfs ${cur_dir}
+cd ${cur_dir} && mkdir tempfolder && cd tempfolder && cp -rf ${cur_dir}/nfs . && cd nfs && mv NCT* ${zipvalue} && cd - && tar -cvf NCTZ08CA${value}000.LUP nfs && mv *.LUP ${cur_dir}
+cd ${cur_dir} && mkdir ${zipvalue} && cd ${zipvalue} && cp -rf ${cur_dir}/tempfolder/nfs .
+cd ${cur_dir} && java -jar lspb.jar -c . create-luh.xml NCT-Z-08CA-${value}.LUH
+cd ${cur_dir} && rm -rf ${zipvalue} && mkdir ${zipvalue} && cd ${zipvalue} && mv ${cur_dir}/*.LUP . && mv ${cur_dir}/*.LUH .
+cd ${cur_dir} && zip -r ${zipvalue}.zip ${zipvalue}
+#House cleaning
+cd ${cur_dir} && rm -r tempfolder && rm -r nfs
 
 
 
