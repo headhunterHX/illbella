@@ -25,7 +25,7 @@ tar -xvf *.LUP
 # pull cpio from jenkins and rename it
 # ops-os is lived jenkins'.  base2 solution>>>ons-dna>>>develop
 # download ops-os.cpio.gz from jenkins
-cd ${last_dir} && cp dna-layer.cpio.gz ${cur_dir}
+# cd ${last_dir} && cp dna-layer.cpio.gz ${cur_dir}
 cd ${cur_dir}/NCT-Z-08CA-*/nfs/NCT-Z-08CA-*/ && cp ${cur_dir}/dna-layer.cpio.gz . && mv dna-layer.cpio.gz 70-dna-layer.cpio.gz
 
 
