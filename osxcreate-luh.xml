@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<LSAP partFormat="ARINC_665-8004" partNumber="NCT-Z-10CS-S02B">
+  <ARINC_665-8004_LSAP downloadFlag="Upload">
+    <LoadTypeInformation description="46 NFS SERVER OS" id="32"/>
+
+    <THWIDList>
+      <THWID value="TDYNFS2" />
+    </THWIDList>
+
+    <DataFileList>
+
+      <LSAPFile filename="dna-layer.cpio.gz"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/dna-layer.cpio.gz"/>
+      <LSAPFile filename="kernel"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/kernel"/>
+      <LSAPFile filename="initramfs"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/initramfs"/>
+      <LSAPFile filename="10-rootfs-layer.cpio.gz"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/10-rootfs-layer.cpio.gz"/>
+      <LSAPFile filename="nascent-ops-os-initrd-overlay.cpio.gz"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/nascent-ops-os-initrd-overlay.cpio.gz"/>
+      <LSAPFile filename="20-nascent-yocto-layer.cpio.gz"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/20-nascent-yocto-layer.cpio.gz"/>
+      <LSAPFile filename="30-nascent-ops-os-layer.cpio.gz"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/30-nascent-ops-os-layer.cpio.gz"/>
+      <LSAPFile filename="25-hardware-nfs-layer.cpio.gz"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/25-hardware-nfs-layer.cpio.gz"/>
+      <LSAPFile filename="hardware-nfs-initrd-overlay.cpio.gz"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/hardware-nfs-initrd-overlay.cpio.gz"/>
+    </DataFileList>
+
+    <SupportFileList>
+      <LSAPFile filename="script-common"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/script-common"/>
+      <LSAPFile filename="find-ops-disk"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/find-ops-disk"/>
+      <LSAPFile filename="kexec-options"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/kexec-options"/>
+      <LSAPFile filename="install.sh"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/install.sh"/>
+      <LSAPFile filename="appid"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/appid"/>
+      <LSAPFile filename="min-appids"
+                filePartNumber="NCT-Z-10CS-S02B"
+                checkValueType="SHA-1"
+                href="NCT-Z-10CS-S02B/min-appids"/>
+    </SupportFileList>
+
+    <LoadCheckValue checkValueType="SHA-1"/>
+  </ARINC_665-8004_LSAP>
+</LSAP>
